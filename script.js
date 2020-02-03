@@ -10,3 +10,11 @@ function save() {
 });
 
 
+function date(){
+    let currentTime = new Date();
+    let currentHour = currentTime.getHours();
+    currentTime.toLocaleString();
+}
+
+
+
